@@ -1,0 +1,231 @@
+.gray {
+    color: gray !important;
+    font-weight: lighter !important;
+}
+
+.icons1 {
+    margin-right: 15px;
+    color: gold;
+    font-size: 20px;
+    font-weight: lighter;
+    margin-left: 10px;
+}
+
+.icons2 {
+    margin-right: 15px;
+    color: green;
+    font-size: 20px;
+    font-weight: lighter;
+    margin-left: 10px;
+}
+
+.steps {
+    text-align: center;
+    color: gray;
+    font-weight: lighter;
+    font-size: 19px !important;
+}
+
+.moduleCards {
+    padding: 28px !important;
+    border-radius: 0px !important;
+    margin-right: 20px !important;
+    height: 350px !important;
+    margin-bottom: 25px;
+    text-align: left;
+    font-weight: lighter;
+    max-height: 359px !important;
+    width: 320px !important;
+}
+
+.innerModuleCards{
+    overflow-y: scroll;
+    max-height: 300px !important;
+}
+
+#main {
+    overflow-y: scroll !important;
+    width: 1300px;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.cdk-overlay-pane{
+    margin-top: 87px !important;
+}
+
+.numbers{
+    border-radius: 50%; 
+    width:16%; 
+    height: 10%; 
+    font-size: 33px;
+}
+
+/* circular progress bar */
+#progress {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    float: left;
+    margin-top: 3px;
+    margin-right: 10px;
+}
+
+#progress-value {
+    display: block;
+    height: calc(100% - 4px);
+    width: calc(100% - 4px);
+    background-color: 
+    #ffffff;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.moduleCardsContainer{
+  display: flex;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin: 10px 0;    
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.wider {
+    display: none !important;
+}
+
+.arrow{
+    color: #0d6efd !important;
+    font-size: 69px !important;
+    margin-top: -16px !important;
+}
+
+.scrollButtonLeft {
+    margin-top: 214px;
+    margin-left: 59px;
+    color: gray;
+    font-size: x-large;
+    cursor: pointer;
+}  
+
+.scrollButtonRight {
+    margin-top: 214px;
+    margin-right: 59px;
+    color: gray;
+    font-size: x-large;
+    cursor: pointer;
+}
+
+.course-title {
+    color: #3c4043 !important;
+    font: 400 33px/50px Google Sans,Arial,sans-serif;
+    letter-spacing: 0.5px;
+    margin-bottom: 8px;
+    text-transform: capitalize !important;
+    margin-top: 15px !important;
+}
+
+.course-subtitle {
+    color: #9aa0a6 !important;
+    font: 400 16px/26px Google Sans,Arial,sans-serif;
+    margin-bottom: 16px !important;
+    margin-bottom: 20px !important;
+}
+
+.second-card {
+    margin-top: 24px !important;
+}
+
+.lists {
+    color: #80868b !important;
+    font: 500 16px Google Sans,Arial,sans-serif;
+    letter-spacing: 1.25px;
+    margin-bottom: 40px !important;
+    /* text-transform: uppercase; */
+}
+
+.vr {
+    border-left: 1px solid #9aa0a6;
+    height: 248px;
+}
+
+.how-it-works {
+    text-align: center;
+    margin-top: 29px;
+    margin-bottom: 45px;
+}
+
+.mat-icon {
+    height: 47px !important;
+    width: 44px !important; 
+}
+.card {
+    /* border-bottom: 1px solid gray !important; */
+}
+.main-module-card-container {
+    background: #f8f9fa !important;
+    border-bottom: 1px solid #d3d3d3 !important;
+}
+
+@media only screen and (max-width: 760px) {
+    .moduleCards {
+        width: 350px !important;
+    }
+    .smaller {
+        display: none !important;
+    }
+
+    .wider {
+        display: block !important;
+    }
+
+    #first-vr {
+        display: none !important;
+    }
+
+    .arrow{
+        font-size: 64px !important;
+        margin-top: -10px !important;
+        margin-left: 41% !important;
+    }
+
+    .numbers {
+        width: 18% !important;
+    }
+
+    .course-title {
+        margin-top: -16px !important;
+    }
+
+  }
+
+  .card-img-top {
+    background-size: cover !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+  }
+
+  .disabled_button {
+    border-radius: 0px !important;
+    font-size: 15px !important;
+    font-weight: lighter !important;
+    padding: 14px !important;
+}
+
+
+.moduleList {
+    color: #1a73e8 !important;
+    font: 400 14px/22px Google Sans,Arial,sans-serif !important; 
+    margin-bottom: 16px !important;
+    transition: color .25s ease !important; 
+    cursor: pointer !important;
+    text-decoration: none !important;
+}

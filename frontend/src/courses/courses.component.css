@@ -1,0 +1,114 @@
+.gray {
+    color: gray !important;
+    font-size: 18px !important;
+}
+
+.top-header{
+    border-radius: 0px !important;
+    margin-top: 77px !important;
+    padding: 32px 0px 32px 0px !important;
+    margin-bottom: -60px !important;
+    border-bottom: 1px solid #e3e5e7 !important;
+}
+
+.icons1 {
+    margin-right: 8px;
+    color: gold;
+    font-size: 20px;
+    font-weight: lighter;
+    margin-left: 13px;
+}
+
+#wider {
+    display: block !important;
+}
+
+#smaller {
+    display: none !important;
+}
+
+.container-fluid {
+    max-width: 1891px !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
+.filter-header {
+    letter-spacing: normal;
+    margin-bottom: 32px;
+    text-transform: uppercase;
+    font-size: 15px !important;
+    font-weight: 400 !important;
+}
+
+.course-counter {
+    color: #3c4043;
+    display: inline;
+    flex-basis: 100%;
+    font-size: 21px !important;
+    font-weight: 500;
+    line-height: 2.6rem;
+}
+@media only screen and (max-width: 760px) {
+    #wider {
+        display: none !important;
+    }
+
+    .container{
+        margin-top: 101px !important;
+    }
+    #smaller {
+        display: block !important;
+    }
+
+    .top-header {
+       padding: 22px 15px 22px 18px !important;
+       margin-bottom: -60px !important;
+    }
+    .header_subtitle {
+        font-size: 1.8rem !important;
+    }
+  }
+
+ 
+
+  .customSidebar {
+    width: 341px;
+    max-width: 341px !important;
+    padding-left: 31px !important;
+    font-weight: lighter;
+    font-size: medium;
+    height: 100%;
+    overflow: scroll;
+    padding-top: 20px;
+  }
+
+  .header_title {
+    font-weight: 400;
+    letter-spacing: .5px;
+    line-height: 5rem;
+    margin-bottom: 4px;
+    padding-bottom: 0;
+
+    font-size: 41px !important;
+    color: #3c4043 !important;
+  }
+
+  .header_subtitle {
+    color: #80868b;
+    font-size: 17px !important;
+    font-weight: 400;
+    letter-spacing: normal;
+    line-height: 35px !important;
+
+  }
+
+  .card-img-top {
+    background-size: cover !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+  }
+
+  .card-body{
+    min-height: 171px !important;
+  }
